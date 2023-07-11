@@ -1,31 +1,196 @@
-.banner-container{
-    display: flex;
-    background: rgba(229, 84, 115, 0.10);
+.banner-container {
+  display: flex;
+  background: rgba(229, 84, 115, 0.1);
 }
 .banner-container img {
-    height: 600px;
+  height: 600px;
 }
-.banner-container h1{
-    color: #272727;
+.banner-container h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-container p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn {
+  background-color: #e55473;
+  padding: 20px 43px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+}
+.featured-section h1 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.featured-section p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+}
+.flower-blocks {
+  width: 310px;
+  height: 428px;
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  display: flex;
+}
+.block {
+  width: 464px;
+  height: 538px;
+}
+.block-1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.block-2 {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.block-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+
+
+.All-Man-Photo {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 240px;
+  padding: 86px 0;
+}
+.All-Man-Photo img {
+  width: 88px;
+  height: 88px;
+}
+.flower-container{
+  
+  width: 1922px;
+height: 620px;
+
+}
+.flower-container h2{
+  color: #272727;
 font-family: Lato;
-font-size: 80px;
+font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-.banner-container p{
-    color: rgba(39, 39, 39, 0.60);
+
+.btn{
+  color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.flower-container img{
+  width: 318px;
+  height: 420px;
+}
+.flower-shop h1{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.flower-shop-text p {
+  text-align: center;
+}
+
+.flower-pot{
+  margin: 48px;
+  padding: 128px;
+  display: flex;
+}
+.pot-1{
+  width: 342px;
+  height: 396px;
+}
+
+.pot-2{
+  width: 342px;
+  height: 396px;
+}
+.pot-3{
+  width: 342px;
+  height: 396px;
+}
+.pot-4{
+  width: 342px;
+  height: 396px;
+} 
+
+
+
+
+
+.latest-deals{
+  margin: 130px 240px;
+  padding: 122px ;
+  display: flex;
+  background-image: url("./Flower Asset/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.latest-deals-shop h1{
+  color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.latest-deals-shop p{
+  text-align: center; 
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-.btn{
-    background-color: #E55473;
-    padding: 20px 43px;
-    border: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 8px;
+.deal-image{
+  width: 1440px;
+height: 449px;
+border-radius: 8px;
+background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
 }
+
+
+
+
