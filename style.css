@@ -9,15 +9,12 @@
   color: #272727;
   font-family: Lato;
   font-size: 80px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .banner-container p {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
 }
@@ -91,12 +88,7 @@
   width: 88px;
   height: 88px;
 }
-.flower-container{
-  
-  width: 1922px;
-height: 620px;
 
-}
 .flower-container h2{
   color: #272727;
 font-family: Lato;
@@ -189,6 +181,33 @@ height: 449px;
 border-radius: 8px;
 background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 
+}
+
+
+
+
+
+.end-design{
+background: #111010;
+color: #FFF;
+padding: 128px 0;
+}
+.end-flower-design h1{
+  color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+
+}
+.end-flower-design p{
+text-align: center;
+}
+.end-design h4 {
+  text-align: center;
+  padding-top: 30px;
 }
 
 
